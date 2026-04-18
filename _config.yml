@@ -1,0 +1,105 @@
+# -----------------------
+# Site Identity
+# -----------------------
+title: "Vishnu Tripathi"
+name: "Vishnu Tripathi"
+description: "AI Researcher | Multimodal Learning, Document Intelligence, Explainable AI"
+
+# -----------------------
+# Theme & Appearance
+# -----------------------
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+
+markdown: kramdown
+
+# Disable blog-like behavior
+paginate: 0
+
+# -----------------------
+# URLs
+# -----------------------
+permalink: /:title/
+timezone: Asia/Kolkata
+
+include:
+  - _pages
+
+# -----------------------
+# Header (Clean Research Look)
+# -----------------------
+header:
+  overlay_color: "#ffffff"
+  overlay_filter: "0"
+  overlay_image: ""
+  actions: []
+
+# -----------------------
+# Navigation (KEEP MINIMAL)
+# -----------------------
+header_pages:
+  - _pages/home.md
+  - _pages/research.md
+  - _pages/publications.md
+  - _pages/experience.md
+  - _pages/contact.md
+
+navigation: false
+
+# -----------------------
+# Author Profile (IMPORTANT)
+# -----------------------
+author:
+  # name: "Vishnu Tripathi"
+  avatar: "/assets/images/bio-photo.jpg"
+  # bio: "AI Researcher working on Multimodal Systems, Document Intelligence, and Explainable AI."
+  location: "India"
+  email: "vishnu.tripathi.2004@gmail.com"
+
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=bWcW7rQAAAAJ"
+
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/TechieTripathi"
+
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/vishnu-tripathi-8a2080238"
+
+# -----------------------
+# Footer (REMOVE NOISE)
+# -----------------------
+footer: false
+
+# -----------------------
+# Plugins (KEEP MINIMAL)
+# -----------------------
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# -----------------------
+# Defaults (Pages Only)
+# -----------------------
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# -----------------------
+# Archives (Optional)
+# -----------------------
+category_archive:
+  type: liquid
+  path: /categories/
+
+tag_archive:
+  type: liquid
+  path: /tags/

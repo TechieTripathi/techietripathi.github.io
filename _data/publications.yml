@@ -1,0 +1,23 @@
+- title: "AI-Monitors at GenAI Detection Task 1: Fast and Scalable Machine-Generated Text Detection"
+  authors: "Vishnu Tripathi et al."
+  venue: "COLING 2025 Workshop"
+  description: >
+    Proposed scalable approaches for detecting machine-generated text using
+    efficient classification strategies.
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2025.genaidetect-1.25/"
+    - label: "Conference"
+      url: "https://coling2025.org/"
+
+- title: "Big Data-Guided Knowledge Graph from Multi-Text Formats"
+  authors: "Vishnu Tripathi et al."
+  venue: "ICIS 2024 (SIG)"
+  description: >
+    Designed a pipeline for extracting structured knowledge graphs from
+    heterogeneous textual sources.
+  links:
+    - label: "Paper"
+      url: "https://aisel.aisnet.org/sigbd2024/1/"
+    - label: "Conference"
+      url: "https://icis2024.aisnet.org/"

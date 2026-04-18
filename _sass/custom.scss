@@ -1,0 +1,194 @@
+  /* ===== SAFE Academic Override (Keeps Structure) ===== */
+
+  body {
+    // font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #111;
+  }
+
+  h1, h2, h3, h4 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  color: #111;
+}
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f09228;
+}
+
+
+
+// .masthead {
+//   border-bottom: 1px solid #eee;
+//   background: #fff;
+// }
+
+// .masthead__menu-item a {
+//   font-size: 14px;
+//   color: #333;
+// }
+
+// .masthead__menu-item a:hover {
+//   color: #1772d0;
+// }
+
+// .author__name {
+//   font-size: 18px;
+//   font-weight: 600;
+// }
+
+// .author__bio {
+//   font-size: 14px;
+//   color: #555;
+// }
+
+
+  /* Keep layout intact, only refine */
+  .page__title {
+    font-weight: 500;
+    letter-spacing: -0.3px;
+  }
+
+  .page__content :first-child {
+    margin-top: 1.0em;
+    }
+
+  /* Section headings */
+  .page__content h2 {
+    font-size: 22px;
+    font-weight: 600;
+    // margin-top: 2em;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+  }
+
+  .page__content {
+  max-width: 780px;
+}
+
+  /* Paragraph spacing */
+  .page__content p {
+    margin-bottom: 1.2em;
+  }
+
+  /* Links */
+  a {
+    color: #1772d0;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #f09228;
+  }
+
+  /* Sidebar clean (NOT remove) */
+  // .author__bio {
+  //   font-size: 14px;
+  //   color: #444;
+  // }
+
+  /* Reduce heaviness but keep nav */
+  // .m32
+
+  /* Remove excessive spacing */
+  .page__content {
+    max-width: 800px;
+  }
+
+.masthead {
+  display: none !important;
+}
+
+
+//   .author__avatar img {
+//   border-radius: 10%;
+//   // width: 100% !important;
+//   max-width: 180px !important;
+// }
+
+
+
+
+// /* Mobile */
+// @media (max-width: 768px) {
+//   .author__avatar img {
+//     width: 120px;
+//     height: 120px;
+//   }
+// }
+
+// /* Small phones */
+// @media (max-width: 480px) {
+//   .author__avatar img {
+//     width: 100px;
+//     height: 100px;
+//   }
+// }
+
+
+
+/* Desktop */
+.author__avatar img {
+
+  max-width: 180px !important;
+  // height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .author__avatar img {
+    width: 150px;
+    // height: 150px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .sidebar .author__avatar img {
+    width: 120px;
+    // height: 120px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .sidebar .author__avatar img {
+    width: 100px;
+    // height: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+details {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.8rem 0;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+summary strong {
+  font-weight: 600;
+}
+
+details[open] summary {
+  margin-bottom: 0.5rem;
+}

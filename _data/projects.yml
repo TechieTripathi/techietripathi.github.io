@@ -1,0 +1,54 @@
+- title: "Multimodal Depression Detection with Explainable AI"
+  description: >
+    Developed a multimodal framework integrating physiological signals (WESAD dataset)
+    and social media text (Reddit) for early depression detection. Applied SHAP-based
+    explainability to interpret model predictions.
+  tech: "Python, PyTorch, SHAP, NLP"
+  links:
+    - label: "Code"
+      url: "https://github.com/your-repo"
+    - label: "Report"
+      url: "#"
+
+- title: "Narrative Similarity (SemEval 2026)"
+  description: >
+    Designed a hybrid system combining embedding similarity with LLM-based reasoning.
+    Achieved 75% accuracy and ranked 3rd out of 47 international teams.
+  tech: "LLMs, NLP, Prompt Engineering"
+  links:
+    - label: "Code"
+      url: "#"
+
+- title: "OCR for Historical Documents using Vision LLMs"
+  description: >
+    Built an OCR pipeline for degraded historical documents using vision-language models,
+    handling noise, skew, and layout complexity.
+  tech: "Computer Vision, OCR, LLMs"
+  links:
+    - label: "Demo"
+      url: "#"
+
+- title: "Knowledge Graph Construction from Documents"
+  description: >
+    Developed a system to extract entities and relationships using LLMs and construct
+    navigable knowledge graphs for semantic search.
+  tech: "Knowledge Graphs, NLP"
+  links:
+    - label: "Code"
+      url: "#"
+
+- title: "Real-Time Face Recognition System"
+  description: >
+    Implemented a deep learning-based facial recognition system for classroom attendance
+    under real-world conditions.
+  tech: "OpenCV, ResNet50, FaceNet"
+  links: []
+
+- title: "Astrowala Learning Platform"
+  description: >
+    Developed and deployed a production-grade e-learning platform serving 300+ users
+    with secure and cost-efficient infrastructure.
+  tech: "Node.js, React, Cloud"
+  links:
+    - label: "Live"
+      url: "https://astrowala.world"

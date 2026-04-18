@@ -1,0 +1,15 @@
+bio: >
+  I am an AI researcher working on multimodal systems, document intelligence,
+  and explainable AI. Currently, I am a Junior Research Fellow at
+  <a href="https://srhu.edu.in/" target="_blank">Swami Rama Himalayan University</a>,
+  focusing on OCR for historical documents and knowledge extraction.
+  <br><br>
+  My work combines research experimentation with system development, with a
+  focus on building reliable AI systems for real-world environments.
+
+research_interests:
+  - Multimodal Learning (Vision, Text, and Physiological Signals)
+  - Document Intelligence and OCR using Vision-Language Models
+  - Explainable AI (XAI) for Healthcare and Mental Health
+  - Knowledge Graphs for Structured Reasoning
+  - Applied AI Systems in Real-World Environments
