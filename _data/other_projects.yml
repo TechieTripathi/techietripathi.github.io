@@ -1,0 +1,19 @@
+other_projects:
+
+  - title: "Mass Attendance System (Real-time Face Recognition)"
+    description: "Developed a real-time facial recognition system for automated classroom attendance using deep learning models"
+    highlights:
+      - Implemented ResNet50 for face detection and FaceNet512 for feature extraction
+      - Achieved stable performance under varying lighting, pose, and crowd conditions
+      - Validated system on real-world dataset (60 identities, 100 students)
+      - Designed preprocessing pipeline for filtering high-quality facial samples
+    links: []
+
+  - title: "Astrowala Learning Platform"
+    description: "Built and deployed a production-grade e-learning platform serving 300+ active users"
+    highlights:
+      - Designed scalable backend architecture and optimized cloud infrastructure
+      - Reduced storage and streaming costs by ~80% using Google Drive API-based system
+      - Implemented security features including session control and anomaly detection
+      - Managed end-to-end deployment, maintenance, and performance optimization
+    links: []

@@ -1,23 +1,63 @@
 - title: "AI-Monitors at GenAI Detection Task 1: Fast and Scalable Machine-Generated Text Detection"
+  venue: "GenAIDetect Workshop @ COLING"
+  year: 2025
   authors: "Vishnu Tripathi et al."
-  venue: "COLING 2025 Workshop"
-  description: >
-    Proposed scalable approaches for detecting machine-generated text using
-    efficient classification strategies.
-  links:
-    - label: "Paper"
-      url: "https://aclanthology.org/2025.genaidetect-1.25/"
-    - label: "Conference"
-      url: "https://coling2025.org/"
+  type: "Workshop Paper"
+  description: "Work on machine-generated text detection as part of a shared task at COLING 2025"
+  links: []
 
-- title: "Big Data-Guided Knowledge Graph from Multi-Text Formats"
+- title: "Big Data-Guided Knowledge Graph and Its Visualization from Multi-Text Formats and Value-Added Interpretation"
+  venue: "ICIS (SIG on Big Data)"
+  year: 2024
   authors: "Vishnu Tripathi et al."
-  venue: "ICIS 2024 (SIG)"
-  description: >
-    Designed a pipeline for extracting structured knowledge graphs from
-    heterogeneous textual sources.
-  links:
-    - label: "Paper"
-      url: "https://aisel.aisnet.org/sigbd2024/1/"
-    - label: "Conference"
-      url: "https://icis2024.aisnet.org/"
+  type: "Research Paper"
+  description: "Work on knowledge graph construction and visualization from multi-source text data"
+  links: []
+
+- title: "AI-Driven Knowledge Graphs for Interoperable Digital Ecosystems"
+  venue: "ACIS"
+  year: 2025
+  authors: "Vishnu Tripathi et al."
+  type: "Research Paper"
+  description: "Work on knowledge graph-based approaches in digital ecosystem settings"
+  links: []
+
+- title: "Information System Guided Reverse Logistics – Managing the Green Industry Environments"
+  venue: "SIGGreen Pre-ICIS Workshop"
+  year: 2024
+  authors: "Vishnu Tripathi et al."
+  type: "Research Paper"
+  description: "Work on information systems in reverse logistics and green industry settings"
+  links: []
+
+- title: "AI and IoHT Guided Bioinformatics Solutions – Managing Stress Related Mental Health"
+  venue: "PACIS (IS for Healthcare Track)"
+  year: 2025
+  authors: "Vishnu Tripathi et al."
+  type: "Research Paper"
+  description: "Work on AI-based approaches in healthcare and mental health applications"
+  links: []
+
+- title: "Sustainable Knowledge-Guided Big Data: Augmented AI Models for Predicting the Coexistence Between Diverse Digital Ecosystems"
+  venue: "ICIS (SIG on Big Data)"
+  year: 2025
+  authors: "Vishnu Tripathi et al."
+  type: "Research Paper"
+  description: "Work on knowledge-guided AI models in large-scale data environments"
+  links: []
+
+- title: "Explainable AI for Depression Detection from Social Media Texts using BERT and SHAP"
+  venue: "AIHW"
+  year: 2025
+  authors: "Vishnu Tripathi et al."
+  type: "Research Paper (publication in progress)"
+  description: "Work on explainable AI methods for mental health detection from social media text"
+  links: []
+
+- title: "AI-Driven Virtual Health Assistants: Utilising Generative AI for Patient Engagement and Mental Health Support"
+  venue: "Bentham Science (Book Chapter)"
+  year: 2025
+  authors: "Vishnu Tripathi et al."
+  type: "Book Chapter (forthcoming)"
+  description: "Work on generative AI systems for healthcare and patient interaction"
+  links: []

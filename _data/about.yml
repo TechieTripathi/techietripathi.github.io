@@ -1,15 +1,33 @@
 bio: >
-  I am an AI researcher working on multimodal systems, document intelligence,
-  and explainable AI. Currently, I am a Junior Research Fellow at
-  <a href="https://srhu.edu.in/" target="_blank">Swami Rama Himalayan University</a>,
-  focusing on OCR for historical documents and knowledge extraction.
+  I am an AI researcher focused on improving the reliability and reasoning capabilities of large language model (LLM) systems. My work lies at the intersection of knowledge-grounded AI, retrieval-augmented generation, and agentic architectures.
   <br><br>
-  My work combines research experimentation with system development, with a
-  focus on building reliable AI systems for real-world environments.
+  Through my work on LLM evaluation and structured knowledge systems - including my participation in <a href="https://narrative-similarity-task.github.io/">SemEval 2026 Task 4: Narrative Similarity</a>, where I <b>ranked 3rd</b> - and building document intelligence and knowledge graph pipelines, I have observed how small variations in prompts or context can lead to inconsistent reasoning.
+  <br><br>
+  These experiences have progressively shaped my research focus toward understanding and mitigating failure modes in LLMs, and designing systems that integrate structured knowledge with controlled decision-making to improve robustness in real-world applications.
+
 
 research_interests:
-  - Multimodal Learning (Vision, Text, and Physiological Signals)
-  - Document Intelligence and OCR using Vision-Language Models
-  - Explainable AI (XAI) for Healthcare and Mental Health
-  - Knowledge Graphs for Structured Reasoning
-  - Applied AI Systems in Real-World Environments
+  - title: "LLM Reasoning and Reliability"
+    description: >
+      Understanding failure modes in large language models, including
+      prompt sensitivity, inconsistency, and hallucination.
+
+  - title: "Knowledge-Grounded AI Systems"
+    description: >
+      Integrating structured knowledge (e.g., knowledge graphs) with
+      retrieval-augmented generation to improve factual accuracy and reasoning.
+
+  - title: "Agentic AI and Tool-Using Systems"
+    description: >
+      Designing LLM-based agents capable of controlled decision-making,
+      multi-step reasoning, and interaction with external tools.
+
+  - title: "Evaluation and Robustness of LLMs"
+    description: >
+      Developing benchmarks and methodologies to assess reasoning consistency
+      and reliability in real-world settings.
+
+  - title: "Explainable and Trustworthy AI"
+    description: >
+      Enhancing interpretability of LLM outputs and understanding decision
+      processes in high-stakes applications.

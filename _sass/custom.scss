@@ -5,15 +5,16 @@
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
     font-size: 17px;
-    line-height: 1.7;
+    // line-height: 1.7;
     color: #111;
   }
 
-  h1, h2, h3, h4 {
+  h1, h2, h3, h4{
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
   color: #111;
 }
+
 a {
   color: #1772d0;
   text-decoration: none;
@@ -75,7 +76,8 @@ a:hover {
 
   /* Paragraph spacing */
   .page__content p {
-    margin-bottom: 1.2em;
+    margin-bottom: 0.25em;
+    margin-left: 1em;
   }
 
   /* Links */
@@ -177,18 +179,47 @@ a:hover {
 
 details {
   border-bottom: 1px solid #e5e5e5;
-  padding: 0.8rem 0;
+  // padding: 0.8rem 0;
 }
 
 summary {
   cursor: pointer;
-  font-size: 1rem;
+  // font-size: 1rem;
 }
 
 summary strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 details[open] summary {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
+
+
+
+
+/* Compact Research Toggle Styling */
+
+// details {
+//   margin-bottom: 8px;   /* reduce gap between items */
+//   border-bottom: 1px solid #eee;
+//   padding-bottom: 6px;
+// }
+
+// summary {
+  // font-size: 16px;
+//   font-weight: 600;
+//   cursor: pointer;
+//   padding: 4px 0;       /* reduce internal spacing */
+// }
+
+// /* Remove extra spacing when opened */
+// details[open] {
+//   margin-bottom: 10px;
+// }
+
+// /* Description text */
+// details p {
+//   margin: 6px 0 8px 0;  /* tighter paragraph spacing */
+//   line-height: 1.5;
+// }

@@ -7,6 +7,7 @@ classes: default
 ---
 
 # Vishnu Tripathi
+<p><b>email:</b> vishnu.tripathi.2004@gmail.com</p>
 
 {% if site.data.about.bio %}
 {{ site.data.about.bio }}
@@ -17,23 +18,62 @@ classes: default
 ## Research Interests
 
 {% for item in site.data.about.research_interests %}
-- {{ item }}
-{% endfor %}
 
+<details>
+<summary><strong>{{ item.title }}</strong></summary>
+
+<p>{{ item.description }}</p>
+
+</details>
+
+{% endfor %}
 ---
 
-## Publications
+## Selected Research & Projects
+
+{% for project in site.data.projects.projects %}
+
+<details>
+<summary><strong>{{ project.title }}</strong></summary>
+
+<p><em>{{ project.description }}</em></p>
+
+<p><span style="font-weight: 900">Problem:</span> {{ project.problem }}</p>
+<p><span style="font-weight: 900">Approach:</span> {{ project.approach }}</p>
+<p><span style="font-weight: 900">Contribution:</span> {{ project.contribution }}</p>
+<p><span style="font-weight: 900">Insight:</span> {{ project.insight }}</p>
+
+{% if project.links %}
+<p>
+{% for link in project.links %}
+<a href="{{ link.url }}" target="_blank">{{ link.label }}</a>{% unless forloop.last %} | {% endunless %}
+{% endfor %}
+</p>
+{% endif %}
+
+</details>
+
+{% endfor %}
+
+<!-- --- -->
+
+
+
+## Publications & Preprints
+
+<!-- <p><em>My work spans LLM evaluation, knowledge-grounded systems, and applied AI, with a focus on understanding model behavior and building reliable real-world AI systems.</em></p> -->
 
 {% for pub in site.data.publications %}
 
 <details>
 <summary>
-<strong>{{ pub.title }}</strong> — <em>{{ pub.venue }}</em>
+<strong>{{ pub.title }}</strong>
 </summary>
 
-<br>
+<strong>{{ pub.type }}</strong> — <em>{{ pub.venue }} ({{ pub.year }})</em>
 
-**Authors:** {{ pub.authors }}
+
+<!-- <strong>Authors:</strong> {{ pub.authors }} -->
 
 {% if pub.description %}
 <p>{{ pub.description }}</p>
@@ -51,24 +91,25 @@ classes: default
 
 {% endfor %}
 
----
+<!-- --- -->
 
-## Selected Research & Projects
 
-{% for project in site.data.projects %}
+## Other Projects & Engineering Work
+
+<p><em>Additional engineering projects demonstrating system design, deployment, and real-world application of AI systems.</em></p>
+
+{% for project in site.data.other_projects.other_projects %}
 
 <details>
-<summary>
-<strong>{{ project.title }}</strong>
-</summary>
+<summary><strong>{{ project.title }}</strong></summary>
 
-<br>
+<p><em>{{ project.description }}</em></p>
 
-{{ project.description }}
-
-{% if project.tech %}
-**Technologies:** {{ project.tech }}
-{% endif %}
+<ul>
+{% for item in project.highlights %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
 
 {% if project.links %}
 <p>
@@ -82,7 +123,6 @@ classes: default
 
 {% endfor %}
 
----
 
 ## Skills
 
