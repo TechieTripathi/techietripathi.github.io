@@ -1,0 +1,21 @@
+reviewing:
+  - venue: "ACIS 2025"
+    role: "Peer Reviewer"
+    details: "Reviewed 3 research papers"
+    url: ""
+
+  - venue: "SemEval 2026 Workshop"
+    role: "Peer Reviewer"
+    details: "Reviewed 3 system papers"
+    url: ""
+
+service:
+  - event: "6th International Yoga Conference on AI/ML for Women's Health"
+    role: "Organizing Committee Member"
+    details: "Coordinated sessions and workshops integrating Ayurveda with ML/AI applications for women's health."
+    url: ""
+
+  - event: "International Conference on Scientific Spirituality and Consciousness (ICSSC 2024)"
+    role: "Volunteer"
+    details: "Assisted with logistics, speaker coordination, registration, and session handling."
+    url: ""

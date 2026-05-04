@@ -1,5 +1,32 @@
-- Machine Learning & Deep Learning (PyTorch, TensorFlow, Scikit-learn)
-- NLP & LLMs (Transformers, Hugging Face, LangChain, RAG)
-- Computer Vision (OpenCV, OCR Systems, Face Recognition)
-- Knowledge Systems (Knowledge Graphs, Information Extraction)
-- MLOps & Systems (Docker, CI/CD, Cloud Deployment)
+skills:
+  - category: "Research & AI"
+    items:
+      - "LLM Reasoning & Evaluation"
+      - "Retrieval-Augmented Generation (RAG)"
+      - "Prompt Engineering & Sensitivity Analysis"
+      - "Knowledge Graph Construction"
+      - "Information Extraction (NER, RE)"
+      - "Explainable AI (SHAP, BERT)"
+      - "Machine-Generated Text Detection"
+
+  - category: "ML & Deep Learning"
+    items:
+      - "Model Fine-tuning (LoRA, QLoRA)"
+      - "Transformer Architectures"
+      - "Computer Vision (ResNet50, GhostFaceNet, OCR)"
+      - "PyTorch · TensorFlow · Scikit-learn"
+      - "Hugging Face · LangChain · spaCy"
+
+  - category: "Systems & MLOps"
+    items:
+      - "Docker · CI/CD (GitHub Actions)"
+      - "Linux · Bash"
+      - "Cloud Deployment (Azure VMs, GDrive Integration)"
+      - "End-to-end Pipeline Design"
+
+  - category: "Programming"
+    items:
+      - "Python (primary)"
+      - "SQL"
+      - "JavaScript (ES6+)"
+      - "C / C++"

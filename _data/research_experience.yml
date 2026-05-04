@@ -1,0 +1,21 @@
+experience:
+  - role: Junior Research Fellow (JRF)
+    lab: CAIR Lab, Institute of Artificial Intelligence
+    institution: Dev Sanskriti Vishwavidyalaya
+    location: Haridwar, Uttarakhand, India
+    duration: July 2025 – Present
+    highlights:
+      - Led development of an OCR system for historic books with integrated image extraction, managing a cross-functional team of 4 members.
+      - Owned end-to-end project execution for historical document digitisation — requirements analysis, system architecture, and stakeholder coordination.
+      - Published 3 papers accepted at AIHW 2025, PACIS 2025, and ACIS 2025 in OCR, document analysis, and AI-driven digitisation.
+
+  - role: Research Intern
+    lab: CAIR Lab, Institute of Artificial Intelligence
+    institution: Dev Sanskriti Vishwavidyalaya
+    location: Haridwar, Uttarakhand, India
+    duration: December 2024 – June 2025
+    highlights:
+      - Developed mass attendance system using deep learning-based facial recognition (ResNet50, GhostFaceNet), achieving 100% accuracy on a 60-identity dataset.
+      - Designed knowledge graph extraction pipeline using LLMs for entity recognition and relationship extraction from unstructured documents.
+      - Proposed and validated novel methodologies for machine-generated text detection, achieving competitive performance at COLING 2025.
+      - Published 4 peer-reviewed papers at ICIS 2024, COLING 2025, SIGGreen Pre-ICIS 2024.

@@ -27,7 +27,8 @@ classes: default
 </details>
 
 {% endfor %}
----
+<!-- --- -->
+
 
 ## Selected Research & Projects
 
@@ -111,6 +112,7 @@ classes: default
 {% endfor %}
 </ul>
 
+
 {% if project.links %}
 <p>
 {% for link in project.links %}
@@ -123,9 +125,73 @@ classes: default
 
 {% endfor %}
 
+<!-- --- -->
+
+
+
+## Research Experience
+
+{% for exp in site.data.research_experience.experience %}
+
+<details>
+<summary><strong>{{ exp.role }}</strong> — <em>{{ exp.lab }}, {{ exp.institution }}</em> &nbsp;|&nbsp; {{ exp.duration }}</summary>
+
+<ul>
+{% for item in exp.highlights %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+</details>
+
+{% endfor %}
+
+
+<!-- --- -->
+
+
 
 ## Skills
 
-{% for skill in site.data.skill %}
-- {{ skill }}
+{% for group in site.data.skill.skills %}
+<div class="skill-group">
+  <p class="skill-category">{{ group.category }}</p>
+  <p class="skill-items">{{ group.items | join: " &nbsp;·&nbsp; " }}</p>
+</div>
 {% endfor %}
+
+
+<!-- --- -->
+
+
+## Workshops & Academic Service
+
+<!-- **Peer Review** -->
+
+<ul>
+{% for r in site.data.workshops.reviewing %}
+<li>
+{% if r.url and r.url != "" %}
+<a href="{{ r.url }}" target="_blank"><strong>{{ r.venue }}</strong></a>
+{% else %}
+<strong>{{ r.venue }}</strong>
+{% endif %}
+ — {{ r.role }} ({{ r.details }})
+</li>
+{% endfor %}
+</ul>
+
+<!-- **Conference Service** -->
+
+<ul>
+{% for s in site.data.workshops.service %}
+<li>
+{% if s.url and s.url != "" %}
+<a href="{{ s.url }}" target="_blank"><strong>{{ s.event }}</strong></a>
+{% else %}
+<strong>{{ s.event }}</strong>
+{% endif %}
+ — {{ s.role }}. {{ s.details }}
+</li>
+{% endfor %}
+</ul>

@@ -223,3 +223,29 @@ details[open] summary {
 //   margin: 6px 0 8px 0;  /* tighter paragraph spacing */
 //   line-height: 1.5;
 // }
+
+
+/* ===== Skills Section ===== */
+.skill-group {
+  margin-bottom: 0.6em;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0.5em;
+}
+
+.skill-category {
+  font-weight: 600;
+  font-size: 14px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.15em !important;
+  margin-left: 0 !important;
+}
+
+.skill-items {
+  font-size: 15px;
+  color: #222;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.6;
+}
