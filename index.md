@@ -81,9 +81,35 @@ classes: default
 {% endif %}
 
 {% if pub.links %}
-<p>
+<p class="pub-links">
 {% for link in pub.links %}
-<a href="{{ link.url }}" target="_blank">{{ link.label }}</a>{% unless forloop.last %} | {% endunless %}
+
+<a href="{{ link.url }}" target="_blank" class="btn btn--small pub-links-a">
+
+  {% if link.label == "Paper" %}
+    <i class="fas fa-file-alt"></i>
+
+  {% elsif link.label == "Code" %}
+    <i class="fab fa-github"></i>
+
+  {% elsif link.label == "PDF" %}
+    <i class="fas fa-file-pdf"></i>
+
+  {% elsif link.label == "arXiv" %}
+    <i class="ai ai-arxiv"></i>
+
+  {% elsif link.label == "Conference" %}
+    <i class="fas fa-chalkboard-teacher"></i>
+
+  {% elsif link.label == "Website" %}
+    <i class="fas fa-globe"></i>
+
+  {% endif %}
+
+  {{ link.label }}
+
+</a>
+
 {% endfor %}
 </p>
 {% endif %}

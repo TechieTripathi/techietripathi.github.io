@@ -4,7 +4,12 @@
   authors: "Vishnu Tripathi et al."
   type: "Workshop Paper"
   description: "Work on machine-generated text detection as part of a shared task at COLING 2025"
-  links: []
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2025.genaidetect-1.25.pdf"
+
+    - label: "Code"
+      url: "https://github.com/aimonitors25/machine-generated-text-detection"
 
 - title: "Big Data-Guided Knowledge Graph and Its Visualization from Multi-Text Formats and Value-Added Interpretation"
   venue: "ICIS (SIG on Big Data)"
@@ -12,23 +17,29 @@
   authors: "Vishnu Tripathi et al."
   type: "Research Paper"
   description: "Work on knowledge graph construction and visualization from multi-source text data"
-  links: []
-
+  links:
+    - label: "Paper"
+      url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1004&context=sigbd2024"
+    
 - title: "AI-Driven Knowledge Graphs for Interoperable Digital Ecosystems"
-  venue: "ACIS"
+  venue: "ACIS 2025 Proceedings"
   year: 2025
   authors: "Vishnu Tripathi et al."
   type: "Research Paper"
   description: "Work on knowledge graph-based approaches in digital ecosystem settings"
-  links: []
+  links:
+    - label: "Paper"
+      url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1127&context=acis2025"
 
-- title: "Information System Guided Reverse Logistics – Managing the Green Industry Environments"
-  venue: "SIGGreen Pre-ICIS Workshop"
-  year: 2024
+- title: "Development of an Adaptable Generative AI Architectural Framework - Managing Diverse Digital Applications"
+  venue: "International Conference on Information Systems 2025 Special Interest Group on Big Data Proceedings"
+  year: 2025
   authors: "Vishnu Tripathi et al."
   type: "Research Paper"
   description: "Work on information systems in reverse logistics and green industry settings"
-  links: []
+  links:
+    - label: "Paper"
+      url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1002&context=sigbd2025"
 
 - title: "AI and IoHT Guided Bioinformatics Solutions – Managing Stress Related Mental Health"
   venue: "PACIS (IS for Healthcare Track)"
@@ -36,15 +47,9 @@
   authors: "Vishnu Tripathi et al."
   type: "Research Paper"
   description: "Work on AI-based approaches in healthcare and mental health applications"
-  links: []
-
-- title: "Sustainable Knowledge-Guided Big Data: Augmented AI Models for Predicting the Coexistence Between Diverse Digital Ecosystems"
-  venue: "ICIS (SIG on Big Data)"
-  year: 2025
-  authors: "Vishnu Tripathi et al."
-  type: "Research Paper"
-  description: "Work on knowledge-guided AI models in large-scale data environments"
-  links: []
+  links:
+    - label: "Paper"
+      url: "https://aisel.aisnet.org/pacis2025/ishealthcare/ishealthcare/12/"
 
 - title: "Explainable AI for Depression Detection from Social Media Texts using BERT and SHAP"
   venue: "AIHW"
@@ -52,12 +57,32 @@
   authors: "Vishnu Tripathi et al."
   type: "Research Paper (publication in progress)"
   description: "Work on explainable AI methods for mental health detection from social media text"
-  links: []
+  links:
+    # - label: "Paper"
+    #   url: "https://arxiv.org/abs/xxxx.xxxxx"
 
+    - label: "Conference"
+      url: "https://www.mahindrauniversity.edu.in/conference-workshop/aihw/"
+  
 - title: "AI-Driven Virtual Health Assistants: Utilising Generative AI for Patient Engagement and Mental Health Support"
   venue: "Bentham Science (Book Chapter)"
   year: 2025
   authors: "Vishnu Tripathi et al."
-  type: "Book Chapter (forthcoming)"
+  type: "Book Chapter (Upcoming)"
   description: "Work on generative AI systems for healthcare and patient interaction"
-  links: []
+  links:
+    # - label: "Code"
+    #   url: "https://github.com/username/project"
+
+- title: "AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity"
+  authors: "Vishnu Tripathi et al."
+  type: "Workshop Paper (Upcoming)"
+  venue: "SemEval-2026 Workshop"
+  year: 2026
+  description: "Work on narrative similarity detection as part of a shared task at SemEval 2026"
+  links:
+    - label: "Conference"
+      url: "https://narrative-similarity-task.github.io/"
+
+    # - label: "Code"
+    #   url: "
