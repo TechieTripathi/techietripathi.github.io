@@ -9,13 +9,11 @@ bio: >
 research_interests:
   - title: "LLM Reasoning and Reliability"
     description: >
-      Understanding failure modes in large language models, including
-      prompt sensitivity, inconsistency, and hallucination.
+      Studying failure modes in large language models, focusing on prompt sensitivity, response inconsistency, and hallucination, to improve model reliability and trustworthiness.
 
   - title: "Knowledge-Grounded AI Systems"
     description: >
-      Integrating structured knowledge (e.g., knowledge graphs) with
-      retrieval-augmented generation to improve factual accuracy and reasoning.
+      Integrating structured knowledge (e.g., knowledge graphs) with retrieval-augmented generation to enhance factual accuracy, reasoning capability, and reliability in large language models.
 
   - title: "Agentic AI and Tool-Using Systems"
     description: >
@@ -29,5 +27,4 @@ research_interests:
 
   - title: "Explainable and Trustworthy AI"
     description: >
-      Enhancing interpretability of LLM outputs and understanding decision
-      processes in high-stakes applications.
+      Enhancing interpretability of LLM outputs and understanding decision processes to improve trust and transparency in high-stakes applications.
