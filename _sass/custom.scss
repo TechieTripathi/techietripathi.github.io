@@ -257,3 +257,12 @@ details[open] summary {
 .pub-links-a {
   margin-top: -1em !important;
 }
+
+
+@media (min-width: 80em) {
+
+  .page {
+    padding-inline-end: 100px !important;
+  }
+
+}
