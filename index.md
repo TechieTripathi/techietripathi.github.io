@@ -77,7 +77,7 @@ classes: default
 <!-- <strong>Authors:</strong> {{ pub.authors }} -->
 
 {% if pub.description %}
-<p>{{ pub.description }}</p>
+<p style="margin: 0 !important">{{ pub.description }}</p>
 {% endif %}
 
 {% if pub.links %}

@@ -3,7 +3,7 @@
   body {
     // font-family: Georgia, "Times New Roman", serif;
   font-family: 'Titillium Web', sans-serif;
-  font-weight: 300;
+  // font-weight: 300;
     font-size: 17px;
     // line-height: 1.7;
     color: #111;
@@ -76,7 +76,8 @@ a:hover {
 
   /* Paragraph spacing */
   .page__content p {
-    margin-bottom: 0.25em;
+    // margin-bottom: 0.25em;
+    margin-bottom: 0.8em;
     margin-left: 1em;
   }
 
@@ -258,11 +259,26 @@ details[open] summary {
   margin-top: -1em !important;
 }
 
+.pub-links{
+  margin: 0 !important;
+}
 
-@media (min-width: 80em) {
 
-  .page {
-    padding-inline-end: 100px !important;
-  }
+// @media (min-width: 80em) {
+//   .page {
+//     padding-inline-end: 100px !important;
+//   }
+// }
 
+
+.page__footer-follow,
+.page__footer-copyright {
+  display: none;
+}
+
+.custom-footer {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 14px;
+  color: #666;
 }

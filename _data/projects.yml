@@ -1,38 +1,50 @@
 # projects:
 
 #   - title: "LLM Prompt Sensitivity & Narrative Reasoning Analysis"
-#     description: "Analyzing the robustness of LLM reasoning under controlled prompt variations"
-#     problem: "Large language models often produce inconsistent outputs when prompts are slightly modified, raising concerns about reasoning reliability"
-#     approach: "As part of SemEval 2026 Task 4, designed structured prompt families and evaluated LLM performance on narrative similarity tasks under controlled variations"
-#     contribution: "Conducted systematic evaluation of prompt sensitivity in LLM reasoning within a competitive benchmark setting (ranked 3rd overall)"
-#     insight: "Observed significant variability in outputs due to minor prompt changes, highlighting instability in reasoning and the need for robust evaluation frameworks"
+#     focus: "LLM reasoning robustness and evaluation"
+
+#     description: "Analyzing the stability of LLM reasoning under controlled prompt variations"
+
+#     problem: "Large language models often produce inconsistent outputs under minor prompt changes, raising concerns about the reliability of their reasoning processes"
+
+#     approach: "As part of SemEval 2026 Task 4, designed structured prompt families (few-shot and aspect-grounded prompting) and evaluated LLM performance on narrative similarity tasks under controlled variations, alongside a hybrid system combining embedding similarity and LLM-based reasoning"
+
+#     contribution: "Conducted a structured evaluation of prompt sensitivity in LLM reasoning within a competitive benchmark setting, achieving 3rd rank out of 47 international systems"
+
+#     insight: "Observed significant variability in model outputs due to small prompt changes, highlighting instability in reasoning and the need for more robust evaluation and control mechanisms"
+
 #     links: []
 
-#     #  - label: "Report"
-#     #     url: "https://github.com/yourusername/kg-document-intelligence"
 
-#   - title: "Knowledge Graph Construction and Visualization from Multi-format Documents"
-#     description: "Extracting and visualizing semantic relationships from unstructured text using LLMs"
-#     problem: "Unstructured textual data lacks explicit structure for effective exploration and interpretation"
-#     approach: "Developed a multi-stage pipeline involving document parsing (PDF, DOCX, TXT), text segmentation, and LLM-based extraction of entities and relationships"
-#     contribution: "Constructed semantic knowledge graphs and enabled interactive visualization with contextual linking to source documents"
-#     insight: "While LLMs can extract meaningful relationships, ensuring consistency and reusability in structured representations remains a challenge"
+#   - title: "Knowledge Graph Construction from Unstructured Text using LLMs"
+#     focus: "Knowledge grounding and structured representations"
+
+#     description: "Building knowledge graphs from unstructured documents to support structured retrieval and exploration"
+
+#     problem: "LLMs operating on unstructured text lack explicit structure, limiting interpretability and traceability in downstream applications"
+
+#     approach: "Developed an LLM-based pipeline for entity recognition and relationship extraction, followed by graph construction and visualization with direct linkage to source documents"
+
+#     contribution: "Implemented a system for transforming unstructured documents into navigable knowledge graphs with document-linked exploration features"
+
+#     insight: "Structured representations improve interpretability and retrieval, but do not fully address inconsistencies in LLM reasoning, indicating the need for tighter integration between knowledge and inference"
+
 #     links: []
 
-#   - title: "Document Intelligence Pipeline (OCR + LLM + RAG)"
-#     description: "Evaluating limitations of retrieval-based pipelines for structured document understanding"
-#     problem: "Unstructured documents are difficult for LLMs to process reliably, especially in real-world scenarios"
-#     approach: "Worked with and extended an OCR + LLM + retrieval-based pipeline to extract structured information from documents, experimenting with different retrieval and structuring strategies"
-#     contribution: "Investigated the effectiveness of retrieval-augmented approaches in document understanding tasks"
-#     insight: "Found that retrieval alone is insufficient for ensuring consistency, motivating the need for structured knowledge constraints"
-#     links: []
 
-#   - title: "Multimodal Face Recognition and Tracking System"
-#     description: "Improving reliability in real-time identity tracking using computer vision pipelines"
-#     problem: "Face recognition systems often produce false positives and inconsistent tracking across frames"
-#     approach: "Implemented a pipeline using face detection, tracking, and confidence-based filtering across video frames"
-#     contribution: "Introduced multi-frame consistency validation to confirm identity and reduce false positives"
-#     insight: "Temporal consistency is critical for improving reliability in real-world recognition systems"
+#   - title: "HistoAI: Knowledge-Grounded RAG System for Historical Documents"
+#     focus: "Applied AI systems and reliability in real-world LLM pipelines"
+
+#     description: "Developing an end-to-end system integrating OCR, knowledge graphs, and retrieval-augmented generation for historical document understanding"
+
+#     problem: "LLM-based systems face reliability challenges in real-world document tasks due to noisy data, degraded text, fragmented context, and lack of structured grounding"
+
+#     approach: "Built an end-to-end pipeline combining OCR-based extraction (with preprocessing for degraded documents), knowledge graph generation, and retrieval-augmented generation (RAG) to enable context-aware querying over historical archives"
+
+#     contribution: "Developed a production-oriented system integrating OCR, structured knowledge, and retrieval pipelines, highlighting practical challenges in deploying knowledge-grounded LLM systems on noisy real-world data"
+
+#     insight: "Both upstream data quality (OCR and preprocessing) and downstream components (retrieval and knowledge representation) significantly influence LLM output reliability, emphasizing the importance of end-to-end system design"
+
 #     links: []
 
 
@@ -42,46 +54,48 @@ projects:
   - title: "LLM Prompt Sensitivity & Narrative Reasoning Analysis"
     focus: "LLM reasoning robustness and evaluation"
 
-    description: "Analyzing the stability of LLM reasoning under controlled prompt variations"
+    description: Studied the stability of LLM reasoning under controlled prompt variations as part of SemEval 2026 Task 4
 
-    problem: "Large language models often produce inconsistent outputs under minor prompt changes, raising concerns about the reliability of their reasoning processes"
+    problem: "Minor prompt variations often lead to inconsistent LLM reasoning and unreliable outputs"
 
-    approach: "As part of SemEval 2026 Task 4, designed structured prompt families (few-shot and aspect-grounded prompting) and evaluated LLM performance on narrative similarity tasks under controlled variations, alongside a hybrid system combining embedding similarity and LLM-based reasoning"
+    approach: "Designed structured prompt families (few-shot and aspect-grounded prompts) and evaluated narrative similarity using hybrid embedding + LLM reasoning pipelines"
 
-    contribution: "Conducted a structured evaluation of prompt sensitivity in LLM reasoning within a competitive benchmark setting, achieving 3rd rank out of 47 international systems"
+    contribution: "Ranked 3rd out of 47 international teams in SemEval 2026 Task 4 through systematic prompt sensitivity evaluation"
 
-    insight: "Observed significant variability in model outputs due to small prompt changes, highlighting instability in reasoning and the need for more robust evaluation and control mechanisms"
+    insight: "Small contextual changes significantly altered model predictions, exposing instability in reasoning behavior"
 
     links: []
 
 
   - title: "Knowledge Graph Construction from Unstructured Text using LLMs"
+
     focus: "Knowledge grounding and structured representations"
 
     description: "Building knowledge graphs from unstructured documents to support structured retrieval and exploration"
 
     problem: "LLMs operating on unstructured text lack explicit structure, limiting interpretability and traceability in downstream applications"
 
-    approach: "Developed an LLM-based pipeline for entity recognition and relationship extraction, followed by graph construction and visualization with direct linkage to source documents"
+    approach: "Developed a pipeline for entity and relation extraction using LLM-assisted parsing, followed by structured graph construction with direct linkage to source documents"
 
-    contribution: "Implemented a system for transforming unstructured documents into navigable knowledge graphs with document-linked exploration features"
+    contribution: "Designed and evaluated a document-to-graph transformation pipeline enabling structured exploration of unstructured corpora"
 
-    insight: "Structured representations improve interpretability and retrieval, but do not fully address inconsistencies in LLM reasoning, indicating the need for tighter integration between knowledge and inference"
+    insight: "Structured representations improve interpretability and retrieval, but do not fully resolve inconsistencies in LLM reasoning, indicating the need for tighter integration between knowledge and inference"
 
     links: []
 
 
   - title: "HistoAI: Knowledge-Grounded RAG System for Historical Documents"
+
     focus: "Applied AI systems and reliability in real-world LLM pipelines"
 
     description: "Developing an end-to-end system integrating OCR, knowledge graphs, and retrieval-augmented generation for historical document understanding"
 
-    problem: "LLM-based systems face reliability challenges in real-world document tasks due to noisy data, degraded text, fragmented context, and lack of structured grounding"
+    problem: "LLM-based systems face reliability challenges in document understanding tasks due to noisy OCR outputs, degraded text, fragmented context, and limited structured grounding"
 
-    approach: "Built an end-to-end pipeline combining OCR-based extraction (with preprocessing for degraded documents), knowledge graph generation, and retrieval-augmented generation (RAG) to enable context-aware querying over historical archives"
+    approach: "Built an end-to-end pipeline combining OCR preprocessing for degraded documents, knowledge graph construction, and retrieval-augmented querying to enable context-aware exploration of historical archives"
 
-    contribution: "Developed a production-oriented system integrating OCR, structured knowledge, and retrieval pipelines, highlighting practical challenges in deploying knowledge-grounded LLM systems on noisy real-world data"
+    contribution: "Developed an integrated document intelligence pipeline combining OCR, structured retrieval, and knowledge-guided querying for noisy historical records"
 
-    insight: "Both upstream data quality (OCR and preprocessing) and downstream components (retrieval and knowledge representation) significantly influence LLM output reliability, emphasizing the importance of end-to-end system design"
+    insight: "Both upstream OCR quality and downstream retrieval components significantly influence LLM reasoning reliability, emphasizing the importance of end-to-end system design"
 
     links: []
