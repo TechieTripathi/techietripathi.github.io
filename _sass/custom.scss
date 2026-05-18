@@ -15,6 +15,41 @@
   color: #111;
 }
 
+h1{
+  // margin-top: -0.5em !important;
+}
+
+
+
+/* Default (desktop) */
+.container {
+  // margin: 40px;
+}
+
+/* Tablet */
+
+@media (max-width: 1024px) {
+  h1 {
+  margin-top: -0.5em !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+  margin-top: -0.5em !important;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  h1 {
+  margin-top: -0.5em !important;
+  }
+}
+
+
+
+
 a {
   color: #1772d0;
   text-decoration: none;
@@ -24,34 +59,6 @@ a:hover {
   color: #f09228;
 }
 
-
-
-// .masthead {
-//   border-bottom: 1px solid #eee;
-//   background: #fff;
-// }
-
-// .masthead__menu-item a {
-//   font-size: 14px;
-//   color: #333;
-// }
-
-// .masthead__menu-item a:hover {
-//   color: #1772d0;
-// }
-
-// .author__name {
-//   font-size: 18px;
-//   font-weight: 600;
-// }
-
-// .author__bio {
-//   font-size: 14px;
-//   color: #555;
-// }
-
-
-  /* Keep layout intact, only refine */
   .page__title {
     font-weight: 500;
     letter-spacing: -0.3px;
@@ -91,16 +98,6 @@ a:hover {
     color: #f09228;
   }
 
-  /* Sidebar clean (NOT remove) */
-  // .author__bio {
-  //   font-size: 14px;
-  //   color: #444;
-  // }
-
-  /* Reduce heaviness but keep nav */
-  // .m32
-
-  /* Remove excessive spacing */
   .page__content {
     max-width: 800px;
   }
@@ -108,33 +105,6 @@ a:hover {
 .masthead {
   display: none !important;
 }
-
-
-//   .author__avatar img {
-//   border-radius: 10%;
-//   // width: 100% !important;
-//   max-width: 180px !important;
-// }
-
-
-
-
-// /* Mobile */
-// @media (max-width: 768px) {
-//   .author__avatar img {
-//     width: 120px;
-//     height: 120px;
-//   }
-// }
-
-// /* Small phones */
-// @media (max-width: 480px) {
-//   .author__avatar img {
-//     width: 100px;
-//     height: 100px;
-//   }
-// }
-
 
 
 /* Desktop */
@@ -197,35 +167,6 @@ details[open] summary {
 }
 
 
-
-
-/* Compact Research Toggle Styling */
-
-// details {
-//   margin-bottom: 8px;   /* reduce gap between items */
-//   border-bottom: 1px solid #eee;
-//   padding-bottom: 6px;
-// }
-
-// summary {
-  // font-size: 16px;
-//   font-weight: 600;
-//   cursor: pointer;
-//   padding: 4px 0;       /* reduce internal spacing */
-// }
-
-// /* Remove extra spacing when opened */
-// details[open] {
-//   margin-bottom: 10px;
-// }
-
-// /* Description text */
-// details p {
-//   margin: 6px 0 8px 0;  /* tighter paragraph spacing */
-//   line-height: 1.5;
-// }
-
-
 /* ===== Skills Section ===== */
 .skill-group {
   margin-bottom: 0.6em;
@@ -264,13 +205,6 @@ details[open] summary {
 }
 
 
-// @media (min-width: 80em) {
-//   .page {
-//     padding-inline-end: 100px !important;
-//   }
-// }
-
-
 .page__footer-follow,
 .page__footer-copyright {
   display: none;
@@ -281,4 +215,10 @@ details[open] summary {
   padding: 1rem 0;
   font-size: 14px;
   color: #666;
+}
+
+
+
+.author__content{
+  padding-inline: 0px 25px !important;
 }

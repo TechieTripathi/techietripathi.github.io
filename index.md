@@ -7,7 +7,9 @@ classes: default
 ---
 
 # Vishnu Tripathi
-<p><b>email:</b> vishnu.tripathi.2004@gmail.com</p>
+<!-- <p><b>Email:</b> <a href="mailto:vishnu.tripathi.2004@gmail.com">vishnu.tripathi.2004@gmail.com</a></p> -->
+
+<p><a href="mailto:vishnu.tripathi.2004@gmail.com">vishnu.tripathi.2004@gmail.com</a></p>
 
 {% if site.data.about.bio %}
 {{ site.data.about.bio }}

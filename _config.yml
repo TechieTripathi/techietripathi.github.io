@@ -52,7 +52,8 @@ navigation: false
 author:
   # name: "Vishnu Tripathi"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "LLM Reasoning | Knowledge-Grounded AI | Agentic Systems"
+  bio: "LLM Reasoning|Knowledge-Grounded AI|Agentic Systems"
+  # bio: ["LLM Reasoning", "Knowledge-Grounded AI", "Agentic Systems"]
   location: "India"
   email: "vishnu.tripathi.2004@gmail.com"
 

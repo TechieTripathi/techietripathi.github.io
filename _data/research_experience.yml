@@ -1,9 +1,21 @@
 experience:
   - role: Junior Research Fellow (JRF)
+    lab: School of Science & Technology
+    # institution: Swami Rama Himalayan University
+    institution: <a href="https://srhu.edu.in/" target="_blank">Swami Rama Himalayan University</a>
+    location: Dehradun, Uttarakhand, India
+    duration: March 2026 – Present
+    highlights:
+      - Conducting research on LLM reasoning reliability, prompt sensitivity, and evaluation methodologies for robust language model assessment.
+      - Contributed to SemEval 2026 Task 4 on narrative similarity, developing hybrid embedding and LLM-based reasoning pipelines that achieved 3rd rank among 47 international systems.
+      - Preparing the workshop paper analyzing prompt sensitivity and reasoning instability in LLM systems based on SemEval 2026 findings.
+
+  - role: Junior Research Fellow (JRF)
     lab: CAIR Lab, Institute of Artificial Intelligence
-    institution: Dev Sanskriti Vishwavidyalaya
+    # institution: Dev Sanskriti Vishwavidyalaya
+    institution: <a href="https://dsvv.ac.in/" target="_blank">Dev Sanskriti Vishwavidyalaya</a>
     location: Haridwar, Uttarakhand, India
-    duration: July 2025 – Present
+    duration: July 2025 – February 2026
     highlights:
       - Led development of an OCR system for historic books with integrated image extraction, managing a cross-functional team of 4 members.
       - Owned end-to-end project execution for historical document digitisation — requirements analysis, system architecture, and stakeholder coordination.
@@ -11,7 +23,8 @@ experience:
 
   - role: Research Intern
     lab: CAIR Lab, Institute of Artificial Intelligence
-    institution: Dev Sanskriti Vishwavidyalaya
+    # institution: Dev Sanskriti Vishwavidyalaya
+    institution: <a href="https://dsvv.ac.in/" target="_blank">Dev Sanskriti Vishwavidyalaya</a>
     location: Haridwar, Uttarakhand, India
     duration: December 2024 – June 2025
     highlights:

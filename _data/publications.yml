@@ -1,3 +1,15 @@
+- title: "AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity"
+  authors: "Vishnu Tripathi et al."
+  type: "Workshop Paper (Upcoming)"
+  venue: "SemEval-2026 Workshop"
+  year: 2026
+  description: "Work on narrative similarity detection as part of a shared task at SemEval 2026"
+  links:
+    - label: "Conference"
+      url: "https://narrative-similarity-task.github.io/"
+
+    # - label: "Code"
+    #   url: "
 - title: "AI-Monitors at GenAI Detection Task 1: Fast and Scalable Machine-Generated Text Detection"
   venue: "GenAIDetect Workshop @ COLING"
   year: 2025
@@ -73,16 +85,3 @@
   links:
     # - label: "Code"
     #   url: "https://github.com/username/project"
-
-- title: "AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity"
-  authors: "Vishnu Tripathi et al."
-  type: "Workshop Paper (Upcoming)"
-  venue: "SemEval-2026 Workshop"
-  year: 2026
-  description: "Work on narrative similarity detection as part of a shared task at SemEval 2026"
-  links:
-    - label: "Conference"
-      url: "https://narrative-similarity-task.github.io/"
-
-    # - label: "Code"
-    #   url: "
