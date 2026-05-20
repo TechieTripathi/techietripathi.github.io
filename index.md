@@ -76,7 +76,9 @@ classes: default
 <strong>{{ pub.type }}</strong> — <em>{{ pub.venue }} ({{ pub.year }})</em>
 
 
-<p style="margin: 0 !important"><strong>Authors:</strong> {{ pub.authors }}</p>
+<!-- <p style="margin: 0 !important"><strong>Authors:</strong> {{ pub.authors }}</p> -->
+<p style="margin: 0 !important">{{ pub.authors }}</p>
+
 
 {% if pub.description %}
 <p style="margin: 0 !important">{{ pub.description }}</p>
