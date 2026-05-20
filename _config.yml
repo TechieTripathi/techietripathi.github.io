@@ -52,13 +52,17 @@ navigation: false
 author:
   # name: "Vishnu Tripathi"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "LLM Reasoning|Knowledge-Grounded AI|Agentic Systems"
+  # bio: '<span class="author-tag">LLM Reasoning</span><span class="author-tag">Knowledge-Grounded AI</span><span class="author-tag">Agentic Systems</span>'
   # bio: ["LLM Reasoning", "Knowledge-Grounded AI", "Agentic Systems"]
   location: "India"
-  email: "vishnu.tripathi.2004@gmail.com"
+  # email: "vishnu.tripathi.2004@gmail.com"
 
   links:
-    - label: "Google Scholar"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/vishnu-tripathi-8a2080238"
+
+    - label: "Scholar"
       icon: "fas fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=bWcW7rQAAAAJ"
 
@@ -66,9 +70,6 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/TechieTripathi"
 
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/vishnu-tripathi-8a2080238"
 
 # -----------------------
 # Footer (REMOVE NOISE)
