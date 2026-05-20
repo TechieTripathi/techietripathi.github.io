@@ -1,7 +1,7 @@
   /* ===== SAFE Academic Override (Keeps Structure) ===== */
 
   body {
-    // font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
   // font-family: 'Titillium Web', sans-serif;
   // font-weight: 300;
     font-size: 17px;
@@ -10,7 +10,8 @@
   }
 
   h1, h2, h3, h4{
-  font-family: 'Titillium Web', sans-serif;
+  // font-family: 'Titillium Web', sans-serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-weight: 600;
   color: #111;
 }
@@ -221,4 +222,15 @@ details[open] summary {
 
 .author__content{
   padding-inline: 0px 25px !important;
+}
+
+
+
+.simple-block {
+  margin-bottom: 0.5em;
+}
+
+.simple-block-title{
+  font-weight: 600;
+  margin-bottom: 0 !important;
 }

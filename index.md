@@ -19,7 +19,8 @@ classes: default
 
 ## Research Interests
 
-{% for item in site.data.about.research_interests %}
+<!--
+ {% for item in site.data.about.research_interests %}
 
 <details>
 <summary><strong>{{ item.title }}</strong></summary>
@@ -28,9 +29,15 @@ classes: default
 
 </details>
 
-{% endfor %}
-<!-- --- -->
+{% endfor %} 
+-->
 
+{% for item in site.data.about.research_interests %}
+<div class="simple-block">
+<p class="simple-block-title">{{ item.title }}</p>
+<p>{{ item.description }}</p>
+</div>
+{% endfor %}
 
 ## Selected Research & Projects
 
@@ -77,7 +84,7 @@ classes: default
 
 
 <!-- <p style="margin: 0 !important"><strong>Authors:</strong> {{ pub.authors }}</p> -->
-<p style="margin: 0 !important">{{ pub.authors }}</p>
+<p style="margin: 0 !important"><strong>Authors:</strong> {{ pub.authors }}</p>
 
 
 {% if pub.description %}

@@ -1,7 +1,7 @@
 bio: >
   I am an AI researcher focused on improving the reliability and reasoning capabilities of large language model (LLM) systems. My work lies at the intersection of LLM reasoning, knowledge-grounded AI, and agentic architectures.
   <br><br>
-  My recent work includes participating in <a href="https://narrative-similarity-task.github.io/">SemEval 2026 Task 4: Narrative Similarity</a>, where our system placed <b>3rd out of 47 teams</b>. I have also worked on document intelligence, knowledge graph pipelines, and workshop publications in major NLP venues, including ACL- and COLING-affiliated workshops.
+  My recent work includes participating in <a href="https://narrative-similarity-task.github.io/" target="_blank">SemEval 2026 Task 4: Narrative Similarity</a>, where our system placed <b>3rd out of 47 teams</b>. I have also worked on document intelligence, knowledge graph pipelines, and workshop publications in major NLP venues, including ACL- and COLING-affiliated workshops.
   <br><br>
   I am especially interested in understanding why LLMs fail, how small prompt changes affect reasoning, and how to build systems that remain reliable outside controlled settings. I am open to research collaborations and PhD opportunities.
 
