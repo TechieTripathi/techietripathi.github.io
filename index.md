@@ -64,7 +64,7 @@ classes: default
 
 ## Publications & Preprints
 
-<!-- <p><em>My work spans LLM evaluation, knowledge-grounded systems, and applied AI, with a focus on understanding model behavior and building reliable real-world AI systems.</em></p> -->
+<p><em>Workshop papers are labeled explicitly below when they appear in ACL- or COLING-affiliated workshop proceedings.</em></p>
 
 {% for pub in site.data.publications %}
 
@@ -76,7 +76,7 @@ classes: default
 <strong>{{ pub.type }}</strong> — <em>{{ pub.venue }} ({{ pub.year }})</em>
 
 
-<!-- <strong>Authors:</strong> {{ pub.authors }} -->
+<p style="margin: 0 !important"><strong>Authors:</strong> {{ pub.authors }}</p>
 
 {% if pub.description %}
 <p style="margin: 0 !important">{{ pub.description }}</p>
@@ -102,6 +102,9 @@ classes: default
 
   {% elsif link.label == "Conference" %}
     <i class="fas fa-chalkboard-teacher"></i>
+
+  {% elsif link.label == "Task" %}
+    <i class="fas fa-tasks"></i>
 
   {% elsif link.label == "Website" %}
     <i class="fas fa-globe"></i>

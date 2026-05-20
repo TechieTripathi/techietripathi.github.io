@@ -1,22 +1,26 @@
 - title: "AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity"
-  authors: "Vishnu Tripathi et al."
-  type: "Workshop Paper (Upcoming)"
+  authors: "<b>Vishnu Tripathi</b> et al."
+  type: "Workshop Paper (To Appear)"
   venue: "SemEval-2026 Workshop"
-  year: 2026
-  description: "Work on narrative similarity detection as part of a shared task at SemEval 2026"
+  year: ACL - 2026
+  description: "Shared-task system paper on narrative similarity detection, to appear in the SemEval 2026 workshop proceedings at ACL 2026"
   links:
-    - label: "Conference"
+    - label: "Task"
       url: "https://narrative-similarity-task.github.io/"
+    - label: "Conference"
+      url: "https://semeval.github.io/SemEval2026/"
 
-    # - label: "Code"
-    #   url: "
 - title: "AI-Monitors at GenAI Detection Task 1: Fast and Scalable Machine-Generated Text Detection"
-  venue: "GenAIDetect Workshop @ COLING"
-  year: 2025
-  authors: "Vishnu Tripathi et al."
+  venue: "GenAIDetect Workshop at COLING 2025"
+  year: ACL - 2025
+  authors: "Azad Singh, <b>Vishnu Tripathi</b>, Ravindra Kumar Pandey, Pragyanand Saho, Prakhar Joshi, Neel Mani, Richa Alagh, Pallaw Mishra, and Piyush Arora"
   type: "Workshop Paper"
   description: "Work on machine-generated text detection as part of a shared task at COLING 2025"
   links:
+    - label: "Task"
+      url: "https://genai-content-detection.gitlab.io/sharedtasks"
+    - label: "Conference"
+      url: "https://genai-content-detection.gitlab.io/"
     - label: "Paper"
       url: "https://aclanthology.org/2025.genaidetect-1.25.pdf"
 
@@ -26,47 +30,55 @@
 - title: "Big Data-Guided Knowledge Graph and Its Visualization from Multi-Text Formats and Value-Added Interpretation"
   venue: "ICIS (SIG on Big Data)"
   year: 2024
-  authors: "Vishnu Tripathi et al."
+  authors: "<b>Vishnu Tripathi</b>, Azad Singh, Shastri Nimmagadda, and Neel Mani"
   type: "Research Paper"
   description: "Work on knowledge graph construction and visualization from multi-source text data"
   links:
+    - label: "Conference"
+      url: "https://aisel.aisnet.org/sigbd2024/"
     - label: "Paper"
       url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1004&context=sigbd2024"
     
 - title: "AI-Driven Knowledge Graphs for Interoperable Digital Ecosystems"
   venue: "ACIS 2025 Proceedings"
   year: 2025
-  authors: "Vishnu Tripathi et al."
+  authors: "<b>Vishnu Tripathi</b>, Shastri Nimmagadda, Neel Mani, Rishabh Mandal, and Markus Helfert"
   type: "Research Paper"
   description: "Work on knowledge graph-based approaches in digital ecosystem settings"
   links:
+    - label: "Conference"
+      url: "https://aisel.aisnet.org/acis2025/"
     - label: "Paper"
       url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1127&context=acis2025"
 
 - title: "Development of an Adaptable Generative AI Architectural Framework - Managing Diverse Digital Applications"
   venue: "International Conference on Information Systems 2025 Special Interest Group on Big Data Proceedings"
   year: 2025
-  authors: "Vishnu Tripathi et al."
+  authors: "Shastri Nimmagadda, <b>Vishnu Tripathi</b>, Azad Singh, Christine Namugenyi, and Neel Mani"
   type: "Research Paper"
   description: "Work on information systems in reverse logistics and green industry settings"
   links:
+    - label: "Conference"
+      url: "https://aisel.aisnet.org/sigbd2025/"
     - label: "Paper"
       url: "https://aisel.aisnet.org/cgi/viewcontent.cgi?article=1002&context=sigbd2025"
 
 - title: "AI and IoHT Guided Bioinformatics Solutions – Managing Stress Related Mental Health"
   venue: "PACIS (IS for Healthcare Track)"
   year: 2025
-  authors: "Vishnu Tripathi et al."
+  authors: "Sambhavi Jha, Shastri Nimmagadda, Azad Singh, <b>Vishnu Tripathi</b>, and Neel Mani"
   type: "Research Paper"
   description: "Work on AI-based approaches in healthcare and mental health applications"
   links:
+    - label: "Conference"
+      url: "https://aisel.aisnet.org/pacis2025"
     - label: "Paper"
       url: "https://aisel.aisnet.org/pacis2025/ishealthcare/ishealthcare/12/"
 
 - title: "Explainable AI for Depression Detection from Social Media Texts using BERT and SHAP"
   venue: "AIHW"
   year: 2025
-  authors: "Vishnu Tripathi et al."
+  authors: "<b>Vishnu Tripathi</b>, Prakhar Joshi, Shastri Nimmagadda, and Neel Mani"
   type: "Research Paper (publication in progress)"
   description: "Work on explainable AI methods for mental health detection from social media text"
   links:
@@ -79,7 +91,7 @@
 - title: "AI-Driven Virtual Health Assistants: Utilising Generative AI for Patient Engagement and Mental Health Support"
   venue: "Bentham Science (Book Chapter)"
   year: 2025
-  authors: "Vishnu Tripathi et al."
+  authors: "<b>Vishnu Tripathi</b> et al."
   type: "Book Chapter (Upcoming)"
   description: "Work on generative AI systems for healthcare and patient interaction"
   links:

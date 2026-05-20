@@ -1,9 +1,16 @@
 bio: >
-  I am an AI researcher focused on improving the reliability and reasoning capabilities of large language model (LLM) systems. My work lies at the intersection of knowledge-grounded AI, retrieval-augmented generation, and agentic architectures.
+  I am an AI researcher focused on improving the reliability and reasoning capabilities of large language model (LLM) systems. My work lies at the intersection of LLM reasoning, knowledge-grounded AI, and agentic architectures.
   <br><br>
-  Through my work on LLM evaluation and structured knowledge systems - including my participation in <a href="https://narrative-similarity-task.github.io/">SemEval 2026 Task 4: Narrative Similarity</a>, where I <b>ranked 3rd</b> - and building document intelligence and knowledge graph pipelines, I have observed how small variations in prompts or context can lead to inconsistent reasoning.
+  My recent work includes participating in <a href="https://narrative-similarity-task.github.io/">SemEval 2026 Task 4: Narrative Similarity</a>, where our system placed <b>3rd out of 47 teams</b>. I have also worked on document intelligence, knowledge graph pipelines, and workshop publications in major NLP venues, including ACL- and COLING-affiliated workshops.
   <br><br>
-  These experiences have progressively shaped my research focus toward understanding and mitigating failure modes in LLMs, and designing systems that integrate structured knowledge with controlled decision-making to improve robustness in real-world applications.
+  I am especially interested in understanding why LLMs fail, how small prompt changes affect reasoning, and how to build systems that remain reliable outside controlled settings. I am open to research collaborations and PhD opportunities.
+
+# I am an AI researcher focused on improving the reliability and reasoning capabilities of large language model (LLM) systems. My work lies at the intersection of knowledge-grounded AI, retrieval-augmented generation, and agentic architectures.
+# <br><br>
+# Through my work on LLM evaluation and structured knowledge systems - including my participation in <a href="https://narrative-similarity-task.github.io/">SemEval 2026 Task 4: Narrative Similarity</a>, where I <b>ranked 3rd</b> - and building document intelligence and knowledge graph pipelines, I have observed how small variations in prompts or context can lead to inconsistent reasoning.
+
+# <br><br>
+# These experiences have progressively shaped my research focus toward understanding and mitigating failure modes in LLMs, and designing systems that integrate structured knowledge with controlled decision-making to improve robustness in real-world applications.
 
 
 research_interests:
