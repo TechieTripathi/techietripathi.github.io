@@ -206,32 +206,30 @@ classes: default
 
 ## Workshops & Academic Service
 
-<!-- **Peer Review** -->
-
-<ul>
+<div class="service-group">
+<!-- <p class="service-group-title">Peer Review</p> -->
 {% for r in site.data.workshops.reviewing %}
-<li>
+<div class="service-item">
 {% if r.url and r.url != "" %}
-<a href="{{ r.url }}" target="_blank"><strong>{{ r.venue }}</strong></a>
+<p class="service-item-title"><a href="{{ r.url }}" target="_blank"><strong>{{ r.venue }}</strong></a> <span class="service-item-role">- {{ r.role }}</span></p>
 {% else %}
-<strong>{{ r.venue }}</strong>
+<p class="service-item-title"><strong>{{ r.venue }}</strong> <span class="service-item-role">- {{ r.role }}</span></p>
 {% endif %}
- — {{ r.role }} ({{ r.details }})
-</li>
+<p class="service-item-detail">{{ r.details }}</p>
+</div>
 {% endfor %}
-</ul>
+</div>
 
-<!-- **Conference Service** -->
-
-<ul>
+<div class="service-group">
+<!-- <p class="service-group-title">Workshops & Volunteering</p> -->
 {% for s in site.data.workshops.service %}
-<li>
+<div class="service-item">
 {% if s.url and s.url != "" %}
-<a href="{{ s.url }}" target="_blank"><strong>{{ s.event }}</strong></a>
+<p class="service-item-title"><a href="{{ s.url }}" target="_blank"><strong>{{ s.event }}</strong></a> <span class="service-item-role">- {{ s.role }}</span></p>
 {% else %}
-<strong>{{ s.event }}</strong>
+<p class="service-item-title"><strong>{{ s.event }}</strong> <span class="service-item-role">- {{ s.role }}</span></p>
 {% endif %}
- — {{ s.role }}. {{ s.details }}
-</li>
+<p class="service-item-detail">{{ s.details }}</p>
+</div>
 {% endfor %}
-</ul>
+</div>
