@@ -13,51 +13,51 @@ bio: >
 # These experiences have progressively shaped my research focus toward understanding and mitigating failure modes in LLMs, and designing systems that integrate structured knowledge with controlled decision-making to improve robustness in real-world applications.
 
 
-# research_interests:
-#   - title: "LLM Reasoning and Reliability"
-#     description: >
-#       Studying failure modes in large language models, focusing on prompt sensitivity, response inconsistency, and hallucination, to improve model reliability and trustworthiness.
-
-#   - title: "Knowledge-Grounded AI Systems"
-#     description: >
-#       Integrating structured knowledge (e.g., knowledge graphs) with retrieval-augmented generation to enhance factual accuracy, reasoning capability, and reliability in large language models.
-
-#   - title: "Agentic AI and Tool-Using Systems"
-#     description: >
-#       Designing LLM-based agents capable of controlled decision-making,
-#       multi-step reasoning, and interaction with external tools.
-
-#   - title: "Evaluation and Robustness of LLMs"
-#     description: >
-#       Developing benchmarks and methodologies to assess reasoning consistency
-#       and reliability in real-world settings.
-
-#   - title: "Explainable and Trustworthy AI"
-#     description: >
-#       Enhancing interpretability of LLM outputs and understanding decision processes to improve trust and transparency in high-stakes applications.
-
-
 research_interests:
   - title: "LLM Reasoning and Reliability"
     description: >
-      LLMs can give different answers to the same question just because 
-      of how it's phrased. I'm interested in understanding when and why 
-      this happens — and how to measure it systematically.
+      Studying failure modes in large language models, focusing on prompt sensitivity, response inconsistency, and hallucination, to improve model reliability and trustworthiness.
 
   - title: "Knowledge-Grounded AI Systems"
     description: >
-      Connecting LLMs to structured knowledge sources like knowledge graphs 
-      helps ground their responses in facts. I work on building pipelines 
-      that make this connection reliable and useful in practice.
+      Integrating structured knowledge (e.g., knowledge graphs) with retrieval-augmented generation to enhance factual accuracy, reasoning capability, and reliability in large language models.
 
   - title: "Agentic AI and Tool-Using Systems"
     description: >
-      When LLMs need to take actions — calling tools, making decisions across 
-      multiple steps — small reasoning errors compound quickly. I'm interested 
-      in how to make these systems more controlled and predictable.
+      Designing LLM-based agents capable of controlled decision-making,
+      multi-step reasoning, and interaction with external tools.
+
+  - title: "Evaluation and Robustness of LLMs"
+    description: >
+      Developing benchmarks and methodologies to assess reasoning consistency
+      and reliability in real-world settings.
 
   - title: "Explainable and Trustworthy AI"
     description: >
-      It's hard to trust a system you can't interpret. I care about making 
-      LLM decision-making more transparent, especially in settings where 
-      the stakes are high.
+      Enhancing interpretability of LLM outputs and understanding decision processes to improve trust and transparency in high-stakes applications.
+
+
+# research_interests:
+#   - title: "LLM Reasoning and Reliability"
+#     description: >
+#       LLMs can give different answers to the same question just because 
+#       of how it's phrased. I'm interested in understanding when and why 
+#       this happens — and how to measure it systematically.
+
+#   - title: "Knowledge-Grounded AI Systems"
+#     description: >
+#       Connecting LLMs to structured knowledge sources like knowledge graphs 
+#       helps ground their responses in facts. I work on building pipelines 
+#       that make this connection reliable and useful in practice.
+
+#   - title: "Agentic AI and Tool-Using Systems"
+#     description: >
+#       When LLMs need to take actions — calling tools, making decisions across 
+#       multiple steps — small reasoning errors compound quickly. I'm interested 
+#       in how to make these systems more controlled and predictable.
+
+#   - title: "Explainable and Trustworthy AI"
+#     description: >
+#       It's hard to trust a system you can't interpret. I care about making 
+#       LLM decision-making more transparent, especially in settings where 
+#       the stakes are high.
