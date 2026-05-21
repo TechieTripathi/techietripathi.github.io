@@ -22,10 +22,10 @@ research_interests:
     description: >
       Integrating structured knowledge (e.g., knowledge graphs) with retrieval-augmented generation to enhance factual accuracy, reasoning capability, and reliability in large language models.
 
-  - title: "Agentic AI and Tool-Using Systems"
-    description: >
-      Designing LLM-based agents capable of controlled decision-making,
-      multi-step reasoning, and interaction with external tools.
+  # - title: "Agentic AI and Tool-Using Systems"
+  #   description: >
+  #     Designing LLM-based agents capable of controlled decision-making,
+  #     multi-step reasoning, and interaction with external tools.
 
   - title: "Evaluation and Robustness of LLMs"
     description: >
