@@ -1,3 +1,15 @@
+- title: "AI-Monitors at ChildSafeAds 2026: A Routed Hybrid for Commercial Content in Child-Facing YouTube Videos"
+  authors: "Pragyananda Sahoo, <b>Vishnu Tripathi</b>, Prakhar Joshi, Gaurav Kumar, Neel Mani"
+  type: "Workshop Paper"
+  venue: "Proceedings of the Natural Legal Language Processing Workshop (NLLP) 2026"
+  year: ACL - 2026
+  description: "Shared-task system paper on detecting and classifying commercial content in child-facing YouTube videos, routing each sub-task to its own input level and model (ModernBERT-large encoders and a QLoRA-tuned Qwen2.5-7B-Instruct); published in the NLLP 2026 workshop proceedings, pages 259–270"
+  links:
+    - label: "Paper"
+      url: "https://aclanthology.org/2026.nllp-1.23/"
+    - label: "PDF"
+      url: "https://aclanthology.org/2026.nllp-1.23.pdf"
+
 - title: "AI-Monitors at SemEval-2026 Task 4: A Hybrid Embedding and LLM Ensemble for Narrative Similarity"
   authors: "<b>Vishnu Tripathi</b>, Azad Singh, Prakhar Joshi, Pragyananda Sahoo, Gaurav Kumar, Piyush Arora, Neel Mani"
   type: "Workshop Paper"

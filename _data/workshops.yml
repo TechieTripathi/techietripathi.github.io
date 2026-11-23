@@ -1,5 +1,10 @@
 reviewing:
 
+  - venue: "ACIS 2026"
+    role: "Peer Reviewer"
+    details: "Reviewed 1 research paper"
+    url: ""
+
   - venue: "SemEval 2026 Workshop"
     role: "Peer Reviewer"
     details: "Reviewed 3 system papers"
